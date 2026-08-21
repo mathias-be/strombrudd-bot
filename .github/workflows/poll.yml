@@ -1,0 +1,46 @@
+name: Sjekk strømbrudd
+
+on:
+  schedule:
+    # Hvert 10. minutt. (GitHub kjører cron "best effort" – kan bli litt
+    # forsinket ved høy last, men det holder for dette formålet.)
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}   # gjør at du kan kjøre den manuelt fra Actions-fanen
+
+concurrency:
+  group: strombrudd-poll
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # trengs for at boten kan lagre data tilbake til repoet
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer avhengigheter
+        run: pip install -r requirements.txt
+
+      - name: Kjør boten
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          NOTIFY_PLANNED: "false"
+        run: python bot.py
+
+      - name: Lagre tilstand og historikk
+        run: |
+          git config user.name "strombrudd-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m "Oppdater strømbrudd-data [skip ci]"
+            git push
+          else
+            echo "Ingen endringer å lagre."
+          fi
