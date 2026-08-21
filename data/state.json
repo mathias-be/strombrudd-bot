@@ -1,0 +1,34 @@
+{
+  "norgesnett:V-70880-1": {
+    "id": "norgesnett:V-70880-1",
+    "source": "Norgesnett",
+    "kommune": "Hvaler",
+    "kommunenr": "3110",
+    "area": "RØD H3053",
+    "customers": 27,
+    "planned": true,
+    "status": "Påbegynt",
+    "cause": null,
+    "start_ms": 1787293809000,
+    "end_ms": 1787310009000,
+    "lat": 59.096598949999986,
+    "lon": 10.846927713000014,
+    "first_seen": "2026-08-21T08:38:06+00:00"
+  },
+  "elvia:8c064584866ac26294ee2b179d9831d3": {
+    "id": "elvia:8c064584866ac26294ee2b179d9831d3",
+    "source": "Elvia",
+    "kommune": "Fredrikstad",
+    "kommunenr": "3107",
+    "area": "X2095 – Gressvik",
+    "customers": 10,
+    "planned": true,
+    "status": "deenergized",
+    "cause": "Planned",
+    "start_ms": 1787032800000,
+    "end_ms": 1787043600000,
+    "lat": 59.173146725296114,
+    "lon": 10.84778613465543,
+    "first_seen": "2026-08-21T08:38:06+00:00"
+  }
+}

@@ -1,0 +1,3 @@
+timestamp_utc,event,id,source,kommune,kommunenr,area,customers,planned,status,cause,start_ms,end_ms,duration_min
+2026-08-21T08:38:06+00:00,START,norgesnett:V-70880-1,Norgesnett,Hvaler,3110,RØD H3053,27,True,Påbegynt,,1787293809000,1787310009000,
+2026-08-21T08:38:06+00:00,START,elvia:8c064584866ac26294ee2b179d9831d3,Elvia,Fredrikstad,3107,X2095 – Gressvik,10,True,deenergized,Planned,1787032800000,1787043600000,
