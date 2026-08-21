@@ -19,9 +19,9 @@ De tre kommunene er delt mellom to nettselskap:
 | Område | Nettselskap | Status i boten |
 |---|---|---|
 | Fredrikstad (unntatt Onsøy), Hvaler | **Norgesnett** | ✅ Ferdig og verifisert |
-| Råde, Onsøy (del av Fredrikstad) | **Elvia** | ⏳ Mangler API-endepunkt (se under) |
+| Råde, Onsøy (del av Fredrikstad) | **Elvia** | ✅ Ferdig og verifisert |
 
-Norgesnett dekker kjernen av området. Elvia-delen (`sources/elvia.py`) er klargjort, men trenger at vi fanger API-adressen fra strømbruddskartet deres først. Inntil da kjører boten fint på Norgesnett alene.
+Begge nettselskapene dekkes nå, så du får med hele Fredrikstad, Hvaler og Råde.
 
 ## Oppsett (ca. 10 minutter)
 
@@ -66,8 +66,8 @@ slack.py                   Slack-meldinger
 store.py                   state.json + events.csv
 stats.py                   Ukentlig statistikk
 sources/
-  norgesnett.py            ✅ Norgesnett (ArcGIS)
-  elvia.py                 ⏳ Elvia (mangler endepunkt)
+  norgesnett.py            ✅ Norgesnett (ArcGIS + Kartverket kommunefilter)
+  elvia.py                 ✅ Elvia (ArcGIS, kommune ligger i dataene)
 data/                      state.json, events.csv, cache (fylles automatisk)
 .github/workflows/         GitHub Actions (poll + statistikk)
 ```
