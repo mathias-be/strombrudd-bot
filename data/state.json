@@ -14,5 +14,21 @@
     "lat": 59.173146725296114,
     "lon": 10.84778613465543,
     "first_seen": "2026-08-21T08:38:06+00:00"
+  },
+  "norgesnett:V-2899-1": {
+    "id": "norgesnett:V-2899-1",
+    "source": "Norgesnett",
+    "kommune": "Fredrikstad",
+    "kommunenr": "3107",
+    "area": "SANDEM H913",
+    "customers": 31,
+    "planned": true,
+    "status": "Påbegynt",
+    "cause": null,
+    "start_ms": 1787639438000,
+    "end_ms": 1787662800000,
+    "lat": 59.23306763699998,
+    "lon": 11.006518717999995,
+    "first_seen": "2026-08-25T07:06:59+00:00"
   }
 }
