@@ -14,5 +14,21 @@
     "lat": 59.173146725296114,
     "lon": 10.84778613465543,
     "first_seen": "2026-08-21T08:38:06+00:00"
+  },
+  "norgesnett:V-70913-1": {
+    "id": "norgesnett:V-70913-1",
+    "source": "Norgesnett",
+    "kommune": "Hvaler",
+    "kommunenr": "3110",
+    "area": "RØD H3002",
+    "customers": 228,
+    "planned": true,
+    "status": "Påbegynt",
+    "cause": null,
+    "start_ms": 1787868332000,
+    "end_ms": 1787889632000,
+    "lat": 59.05390090200001,
+    "lon": 10.953126155999996,
+    "first_seen": "2026-08-27T23:59:17+00:00"
   }
 }
