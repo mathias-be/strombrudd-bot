@@ -14,21 +14,5 @@
     "lat": 59.173146725296114,
     "lon": 10.84778613465543,
     "first_seen": "2026-08-21T08:38:06+00:00"
-  },
-  "norgesnett:V-70944-1": {
-    "id": "norgesnett:V-70944-1",
-    "source": "Norgesnett",
-    "kommune": "Hvaler",
-    "kommunenr": "3110",
-    "area": "RØD H3053",
-    "customers": 53,
-    "planned": false,
-    "status": "Påbegynt",
-    "cause": "Glitre Nett har hatt en rekke feil utløst av hverandre. Vi håper at vi retter den siste feilen her nå.\nAntatt gjeninnkobling kl. 18\n \nBerørte områder: \n\nSAUEVIKA, KJELLVIKA.",
-    "start_ms": 1788002126000,
-    "end_ms": null,
-    "lat": 59.072874988000024,
-    "lon": 10.907069620000016,
-    "first_seen": "2026-08-29T15:08:10+00:00"
   }
 }
