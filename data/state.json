@@ -14,5 +14,21 @@
     "lat": 59.173146725296114,
     "lon": 10.84778613465543,
     "first_seen": "2026-08-21T08:38:06+00:00"
+  },
+  "elvia:59e7573e39737e15c7630c0b91651242": {
+    "id": "elvia:59e7573e39737e15c7630c0b91651242",
+    "source": "Elvia",
+    "kommune": "Skiptvet",
+    "kommunenr": "3116",
+    "area": "Z2101 – Skiptvet",
+    "customers": 3,
+    "planned": false,
+    "status": "deenergized",
+    "cause": "Unplanned",
+    "start_ms": 1788171573000,
+    "end_ms": 1788184533000,
+    "lat": 59.47329547954657,
+    "lon": 11.177811229425513,
+    "first_seen": "2026-08-31T15:00:01+00:00"
   }
 }
