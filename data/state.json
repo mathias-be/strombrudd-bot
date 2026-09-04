@@ -14,5 +14,21 @@
     "lat": 59.173146725296114,
     "lon": 10.84778613465543,
     "first_seen": "2026-08-21T08:38:06+00:00"
+  },
+  "norgesnett:V-2916-1": {
+    "id": "norgesnett:V-2916-1",
+    "source": "Norgesnett",
+    "kommune": "Fredrikstad",
+    "kommunenr": "3107",
+    "area": "OREDALEN H515",
+    "customers": 11,
+    "planned": true,
+    "status": "Påbegynt",
+    "cause": null,
+    "start_ms": 1788503535000,
+    "end_ms": 1788523200000,
+    "lat": 59.223445449999986,
+    "lon": 10.93967846999999,
+    "first_seen": "2026-09-04T11:21:23+00:00"
   }
 }
