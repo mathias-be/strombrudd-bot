@@ -14,5 +14,21 @@
     "lat": 59.173146725296114,
     "lon": 10.84778613465543,
     "first_seen": "2026-08-21T08:38:06+00:00"
+  },
+  "elvia:7997945bf4af0b632b6fe3a0dbc57305": {
+    "id": "elvia:7997945bf4af0b632b6fe3a0dbc57305",
+    "source": "Elvia",
+    "kommune": "Fredrikstad",
+    "kommunenr": "3107",
+    "area": "X2018 – Gressvik",
+    "customers": 12,
+    "planned": false,
+    "status": "deenergized",
+    "cause": "Unplanned",
+    "start_ms": 1788619086000,
+    "end_ms": 1788632046000,
+    "lat": 59.20403503510798,
+    "lon": 10.894063102887392,
+    "first_seen": "2026-09-05T15:58:50+00:00"
   }
 }
