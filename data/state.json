@@ -14,5 +14,21 @@
     "lat": 59.173146725296114,
     "lon": 10.84778613465543,
     "first_seen": "2026-08-21T08:38:06+00:00"
+  },
+  "norgesnett:V-2918-1": {
+    "id": "norgesnett:V-2918-1",
+    "source": "Norgesnett",
+    "kommune": "Fredrikstad",
+    "kommunenr": "3107",
+    "area": "BROGATA H1083",
+    "customers": 6,
+    "planned": true,
+    "status": "Påbegynt",
+    "cause": null,
+    "start_ms": 1788849072000,
+    "end_ms": 1788865200000,
+    "lat": 59.22761552600002,
+    "lon": 10.960793991999992,
+    "first_seen": "2026-09-08T09:51:02+00:00"
   }
 }
