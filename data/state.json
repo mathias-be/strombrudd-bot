@@ -15,20 +15,20 @@
     "lon": 10.84778613465543,
     "first_seen": "2026-08-21T08:38:06+00:00"
   },
-  "norgesnett:V-2918-1": {
-    "id": "norgesnett:V-2918-1",
-    "source": "Norgesnett",
+  "elvia:a1b20754925ca4c69ef9d9d3af5d9a85": {
+    "id": "elvia:a1b20754925ca4c69ef9d9d3af5d9a85",
+    "source": "Elvia",
     "kommune": "Fredrikstad",
     "kommunenr": "3107",
-    "area": "BROGATA H1083",
-    "customers": 6,
-    "planned": true,
-    "status": "Påbegynt",
-    "cause": null,
-    "start_ms": 1788849072000,
-    "end_ms": 1788865200000,
-    "lat": 59.22761552600002,
-    "lon": 10.960793991999992,
-    "first_seen": "2026-09-08T09:51:02+00:00"
+    "area": "X2288 – Gressvik",
+    "customers": 2,
+    "planned": false,
+    "status": "deenergized",
+    "cause": "Unplanned",
+    "start_ms": 1788876872000,
+    "end_ms": 1788889832000,
+    "lat": 59.2336953412202,
+    "lon": 10.821568687450775,
+    "first_seen": "2026-09-08T14:20:47+00:00"
   }
 }
