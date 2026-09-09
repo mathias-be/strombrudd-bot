@@ -1,18 +1,1 @@
-{
-  "elvia:8c064584866ac26294ee2b179d9831d3": {
-    "id": "elvia:8c064584866ac26294ee2b179d9831d3",
-    "source": "Elvia",
-    "kommune": "Fredrikstad",
-    "kommunenr": "3107",
-    "area": "X2095 – Gressvik",
-    "customers": 10,
-    "planned": true,
-    "status": "deenergized",
-    "cause": "Planned",
-    "start_ms": 1787032800000,
-    "end_ms": 1787043600000,
-    "lat": 59.173146725296114,
-    "lon": 10.84778613465543,
-    "first_seen": "2026-08-21T08:38:06+00:00"
-  }
-}
+{}
