@@ -1,1 +1,34 @@
-{}
+{
+  "norgesnett:V-2924-1": {
+    "id": "norgesnett:V-2924-1",
+    "source": "Norgesnett",
+    "kommune": "Fredrikstad",
+    "kommunenr": "3107",
+    "area": "BROGATA H629A",
+    "customers": 52,
+    "planned": true,
+    "status": "Påbegynt",
+    "cause": null,
+    "start_ms": 1789020075000,
+    "end_ms": 1789043400000,
+    "lat": 59.21342676799998,
+    "lon": 10.954614304000017,
+    "first_seen": "2026-09-10T09:12:17+00:00"
+  },
+  "norgesnett:V-70977-1": {
+    "id": "norgesnett:V-70977-1",
+    "source": "Norgesnett",
+    "kommune": "Fredrikstad",
+    "kommunenr": "3107",
+    "area": "SANDEM H1952",
+    "customers": 10,
+    "planned": true,
+    "status": "Påbegynt",
+    "cause": null,
+    "start_ms": 1789023607000,
+    "end_ms": 1789045207000,
+    "lat": 59.20205910200002,
+    "lon": 11.057574412999998,
+    "first_seen": "2026-09-10T09:12:17+00:00"
+  }
+}
