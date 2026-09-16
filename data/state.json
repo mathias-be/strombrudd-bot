@@ -14,5 +14,21 @@
     "lat": 59.17310036399999,
     "lon": 10.897283017000007,
     "first_seen": "2026-09-14T13:02:18+00:00"
+  },
+  "norgesnett:V-71000-1": {
+    "id": "norgesnett:V-71000-1",
+    "source": "Norgesnett",
+    "kommune": "Hvaler",
+    "kommunenr": "3110",
+    "area": "NAVESTAD NAVESTAD 13 HAUGE - SINGLEØYA",
+    "customers": 19,
+    "planned": true,
+    "status": "Påbegynt",
+    "cause": null,
+    "start_ms": 1789540215000,
+    "end_ms": 1789560015000,
+    "lat": 59.10884972000002,
+    "lon": 11.129768264000006,
+    "first_seen": "2026-09-16T10:03:57+00:00"
   }
 }
