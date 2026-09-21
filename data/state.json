@@ -1,1 +1,18 @@
-{}
+{
+  "norgesnett:V-2928-1": {
+    "id": "norgesnett:V-2928-1",
+    "source": "Norgesnett",
+    "kommune": "Fredrikstad",
+    "kommunenr": "3107",
+    "area": "SANDEM H5667",
+    "customers": 8,
+    "planned": true,
+    "status": "Påbegynt",
+    "cause": null,
+    "start_ms": 1789970464000,
+    "end_ms": 1789995600000,
+    "lat": 59.23280533500002,
+    "lon": 11.000126551999983,
+    "first_seen": "2026-09-21T07:09:56+00:00"
+  }
+}
