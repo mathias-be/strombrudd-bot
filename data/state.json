@@ -1,18 +1,18 @@
 {
-  "norgesnett:V-2936-1": {
-    "id": "norgesnett:V-2936-1",
+  "norgesnett:V-71002-1": {
+    "id": "norgesnett:V-71002-1",
     "source": "Norgesnett",
-    "kommune": "Hvaler",
-    "kommunenr": "3110",
-    "area": "RØD H3001",
-    "customers": 34,
+    "kommune": "Fredrikstad",
+    "kommunenr": "3107",
+    "area": "OREDALEN H5794",
+    "customers": 64,
     "planned": true,
     "status": "Påbegynt",
     "cause": null,
-    "start_ms": 1790056965000,
-    "end_ms": 1790062259000,
-    "lat": 59.02602765099999,
-    "lon": 11.039118944999984,
-    "first_seen": "2026-09-22T06:42:34+00:00"
+    "start_ms": 1790060458000,
+    "end_ms": 1790083858000,
+    "lat": 59.22731355600001,
+    "lon": 10.964738418000024,
+    "first_seen": "2026-09-22T12:05:48+00:00"
   }
 }
