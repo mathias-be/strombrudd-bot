@@ -1,18 +1,1 @@
-{
-  "norgesnett:V-71002-1": {
-    "id": "norgesnett:V-71002-1",
-    "source": "Norgesnett",
-    "kommune": "Fredrikstad",
-    "kommunenr": "3107",
-    "area": "OREDALEN H5794",
-    "customers": 64,
-    "planned": true,
-    "status": "Påbegynt",
-    "cause": null,
-    "start_ms": 1790060458000,
-    "end_ms": 1790083858000,
-    "lat": 59.22731355600001,
-    "lon": 10.964738418000024,
-    "first_seen": "2026-09-22T12:05:48+00:00"
-  }
-}
+{}
