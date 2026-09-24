@@ -1,1 +1,18 @@
-{}
+{
+  "norgesnett:V-71031-1": {
+    "id": "norgesnett:V-71031-1",
+    "source": "Norgesnett",
+    "kommune": "Fredrikstad",
+    "kommunenr": "3107",
+    "area": "KRÅKERØY H5628",
+    "customers": 93,
+    "planned": true,
+    "status": "Påbegynt",
+    "cause": null,
+    "start_ms": 1790233231000,
+    "end_ms": 1790256631000,
+    "lat": 59.197757706999994,
+    "lon": 10.909826579000026,
+    "first_seen": "2026-09-24T12:15:28+00:00"
+  }
+}
