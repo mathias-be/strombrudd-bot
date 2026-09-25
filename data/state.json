@@ -1,18 +1,1 @@
-{
-  "norgesnett:V-2937-1": {
-    "id": "norgesnett:V-2937-1",
-    "source": "Norgesnett",
-    "kommune": "Fredrikstad",
-    "kommunenr": "3107",
-    "area": "RAA H0886",
-    "customers": 7,
-    "planned": true,
-    "status": "Påbegynt",
-    "cause": null,
-    "start_ms": 1790287842000,
-    "end_ms": 1790308800000,
-    "lat": 59.254235060999974,
-    "lon": 11.01287884300001,
-    "first_seen": "2026-09-24T23:33:59+00:00"
-  }
-}
+{}
