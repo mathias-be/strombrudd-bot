@@ -1,18 +1,1 @@
-{
-  "norgesnett:V-2945-1": {
-    "id": "norgesnett:V-2945-1",
-    "source": "Norgesnett",
-    "kommune": "Fredrikstad",
-    "kommunenr": "3107",
-    "area": "BROGATA H631A",
-    "customers": 17,
-    "planned": true,
-    "status": "Påbegynt",
-    "cause": null,
-    "start_ms": 1790888519000,
-    "end_ms": 1790910000000,
-    "lat": 59.20795917100003,
-    "lon": 10.941699873999994,
-    "first_seen": "2026-10-02T01:40:41+00:00"
-  }
-}
+{}
