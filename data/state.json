@@ -1,1 +1,18 @@
-{}
+{
+  "elvia:c3a127d6aeedbb1f18c5ee904097918b": {
+    "id": "elvia:c3a127d6aeedbb1f18c5ee904097918b",
+    "source": "Elvia",
+    "kommune": "Skiptvet",
+    "kommunenr": "3116",
+    "area": "Z2087 – Skiptvet",
+    "customers": 4,
+    "planned": false,
+    "status": "deenergized",
+    "cause": "Unplanned",
+    "start_ms": 1791299800000,
+    "end_ms": 1791312760000,
+    "lat": 59.49168367122099,
+    "lon": 11.218436592776174,
+    "first_seen": "2026-10-06T15:56:45+00:00"
+  }
+}
