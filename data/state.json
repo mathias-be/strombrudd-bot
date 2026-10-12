@@ -1,18 +1,1 @@
-{
-  "norgesnett:V-2958-1": {
-    "id": "norgesnett:V-2958-1",
-    "source": "Norgesnett",
-    "kommune": "Fredrikstad",
-    "kommunenr": "3107",
-    "area": "GLUPPE H1158",
-    "customers": 10,
-    "planned": true,
-    "status": "Påbegynt",
-    "cause": null,
-    "start_ms": 1791787787000,
-    "end_ms": 1791795600000,
-    "lat": 59.295757632000004,
-    "lon": 10.977613857999984,
-    "first_seen": "2026-10-12T08:03:07+00:00"
-  }
-}
+{}
