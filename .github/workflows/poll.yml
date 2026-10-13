@@ -2,10 +2,10 @@ name: Sjekk strømbrudd
 
 on:
   schedule:
-    # Hvert 10. minutt. (GitHub kjører cron "best effort" – kan bli litt
-    # forsinket ved høy last, men det holder for dette formålet.)
-    - cron: "*/10 * * * *"
-  workflow_dispatch: {}   # gjør at du kan kjøre den manuelt fra Actions-fanen
+    # Hvert 10. minutt fra minutt 3. GitHub kan forsinke eller droppe schedule-kjøringer.
+    # Unngå minutt 0, som GitHub oppgir som et tidspunkt med høy belastning.
+    - cron: "3/10 * * * *"
+  workflow_dispatch: {}   # manuell kjøring og ekstern scheduler kan bruke samme workflow
 
 concurrency:
   group: strombrudd-poll
