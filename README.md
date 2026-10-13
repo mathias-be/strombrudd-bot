@@ -2,11 +2,11 @@
 
 En liten bot som varsler i Slack når det er strømbrudd i Fredrikstad, Hvaler eller Råde, og som samtidig lagrer alle brudd i en historikk slik at du kan se **hvor det er mest strømbrudd** over tid.
 
-Boten kjører gratis på **GitHub Actions** (hvert 10. minutt), så du trenger ingen server og ingen maskin som må stå på.
+Boten er planlagt kjørt gratis på **GitHub Actions** hvert 10. minutt, så du trenger ingen server og ingen maskin som må stå på. GitHubs schedule-hendelse er «best effort»: kjøringer kan bli forsinket eller droppet. Se [planlagt kjøring og pålitelighet](docs/scheduling-reliability.md) for hvordan du legger til en uavhengig trigger.
 
 ## Hva den gjør
 
-- Henter pågående strømbrudd fra nettselskapenes egne kart hvert 10. minutt.
+- Henter pågående strømbrudd fra nettselskapenes egne kart ved hver planlagte kjøring. Målet er hvert 10. minutt.
 - Sender en Slack-melding når et **nytt** brudd oppstår, og en «strøm tilbake»-melding når det er over (med varighet).
 - Varsler kun om **faktiske** brudd som standard – planlagte stanser logges, men spammer deg ikke (kan skrus på).
 - Logger hvert brudd til `data/events.csv` (sted, kommune, antall kunder, start/slutt, varighet).
@@ -43,9 +43,9 @@ I repoet: **Settings → Secrets and variables → Actions → New repository se
 
 ### 4. Skru på Actions
 - Gå til **Actions**-fanen og bekreft at workflows kan kjøre.
-- Åpne **«Sjekk strømbrudd»** → **Run workflow** for å teste med én gang (ellers starter den av seg selv innen 10 min).
+- Åpne **«Sjekk strømbrudd»** → **Run workflow** for å teste med én gang. Den planlagte kjøringen er ikke garantert å starte innen 10 minutter.
 
-Det er alt. Boten begynner å overvåke og fylle opp `data/events.csv`.
+Når workflowen starter, begynner boten å overvåke og fylle opp `data/events.csv`. For mer forutsigbart intervall, følg [veiledningen for uavhengig scheduler](docs/scheduling-reliability.md).
 
 ## Justering
 
