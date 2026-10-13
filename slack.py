@@ -11,6 +11,12 @@ from models import Outage
 
 _TZ = ZoneInfo(TIMEZONE)
 
+# Lenke til nettselskapets eget strømbruddskart, per kilde
+MAP_URLS = {
+    "Norgesnett": "https://norgesnett.no/stromstans/",
+    "Elvia": "https://strombruddskart.elvia.no/",
+}
+
 
 def _fmt_time(ms):
     if not ms:
@@ -55,6 +61,9 @@ def notify_new_outage(o: Outage) -> bool:
     ]
     if o.cause:
         linjer.append(f"ℹ️ {o.cause}")
+    map_url = MAP_URLS.get(o.source)
+    if map_url:
+        linjer.append(f"🗺️ <{map_url}|Se {o.source} sitt strømbruddskart>")
     linjer.append(f"_Kilde: {o.source}_")
     text = "\n".join(linjer)
     return post(text)

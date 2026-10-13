@@ -16,7 +16,7 @@ from config import STATE_FILE, EVENTS_CSV, DATA_DIR
 CSV_HEADER = [
     "timestamp_utc", "event", "id", "source", "kommune", "kommunenr",
     "area", "customers", "planned", "status", "cause",
-    "start_ms", "end_ms", "duration_min",
+    "start_ms", "end_ms", "duration_min", "lat", "lon",
 ]
 
 
@@ -42,10 +42,35 @@ def save_state(state: dict) -> None:
 
 
 def _ensure_csv():
+    """Sørg for at events.csv finnes og har riktig header.
+
+    Hvis en eldre versjon av fila mangler nye kolonner (f.eks. lat/lon),
+    migreres den automatisk: gamle rader beholdes, nye kolonner fylles
+    tomme. Da slipper du å gjøre noe med fila manuelt.
+    """
     os.makedirs(DATA_DIR, exist_ok=True)
     if not os.path.exists(EVENTS_CSV):
         with open(EVENTS_CSV, "w", newline="", encoding="utf-8") as f:
             csv.writer(f).writerow(CSV_HEADER)
+        return
+
+    # Sjekk om headeren er utdatert
+    with open(EVENTS_CSV, newline="", encoding="utf-8") as f:
+        try:
+            header = next(csv.reader(f))
+        except StopIteration:
+            header = []
+    if header == CSV_HEADER:
+        return
+
+    # Migrer: les gamle rader som dicts, skriv på nytt med ny header
+    with open(EVENTS_CSV, newline="", encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    with open(EVENTS_CSV, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=CSV_HEADER, extrasaction="ignore", restval="")
+        w.writeheader()
+        for row in rows:
+            w.writerow(row)
 
 
 def log_event(event: str, o: dict, duration_min=None) -> None:
@@ -57,4 +82,5 @@ def log_event(event: str, o: dict, duration_min=None) -> None:
             o.get("kommune"), o.get("kommunenr"), o.get("area"),
             o.get("customers"), o.get("planned"), o.get("status"),
             o.get("cause"), o.get("start_ms"), o.get("end_ms"), duration_min,
+            o.get("lat"), o.get("lon"),
         ])
