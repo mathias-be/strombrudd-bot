@@ -1,1 +1,66 @@
-{}
+{
+  "norgesnett:V-2968-1": {
+    "id": "norgesnett:V-2968-1",
+    "source": "Norgesnett",
+    "kommune": "Fredrikstad",
+    "kommunenr": "3107",
+    "area": "NAVESTAD H1991",
+    "customers": 22,
+    "planned": true,
+    "status": "Påbegynt",
+    "cause": null,
+    "start_ms": 1792393269000,
+    "end_ms": 1792414831000,
+    "lat": 59.25836279700002,
+    "lon": 11.110537395999984,
+    "first_seen": "2026-10-19T07:16:37+00:00"
+  },
+  "elvia:d91a483d0c5680bc869a95cacdd3e414": {
+    "id": "elvia:d91a483d0c5680bc869a95cacdd3e414",
+    "source": "Elvia",
+    "kommune": "Fredrikstad",
+    "kommunenr": "3107",
+    "area": "X2204 – Engelsviken",
+    "customers": 51,
+    "planned": true,
+    "status": "deenergized",
+    "cause": "Planned",
+    "start_ms": 1792389600000,
+    "end_ms": 1792414800000,
+    "lat": 59.24803543432888,
+    "lon": 10.737797319712818,
+    "first_seen": "2026-10-19T07:16:37+00:00"
+  },
+  "elvia:c26d2ea86e15bd89ba31bd18a8f3a31c": {
+    "id": "elvia:c26d2ea86e15bd89ba31bd18a8f3a31c",
+    "source": "Elvia",
+    "kommune": "Fredrikstad",
+    "kommunenr": "3107",
+    "area": "X2205 – Engelsviken",
+    "customers": 82,
+    "planned": true,
+    "status": "deenergized",
+    "cause": "Planned",
+    "start_ms": 1792389600000,
+    "end_ms": 1792414800000,
+    "lat": 59.25060511514192,
+    "lon": 10.742276496437343,
+    "first_seen": "2026-10-19T07:16:37+00:00"
+  },
+  "elvia:d1dc82df58de7d5d33489ba40f68c22f": {
+    "id": "elvia:d1dc82df58de7d5d33489ba40f68c22f",
+    "source": "Elvia",
+    "kommune": "Skiptvet",
+    "kommunenr": "3116",
+    "area": "Z2031 – Skiptvet",
+    "customers": 7,
+    "planned": true,
+    "status": "deenergized",
+    "cause": "Planned",
+    "start_ms": 1792391400000,
+    "end_ms": 1792404000000,
+    "lat": 59.421302234807115,
+    "lon": 11.1576716365248,
+    "first_seen": "2026-10-19T07:16:37+00:00"
+  }
+}
