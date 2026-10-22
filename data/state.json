@@ -1,1 +1,18 @@
-{}
+{
+  "elvia:6cc544ed0f8f3f01e59951a49948961f": {
+    "id": "elvia:6cc544ed0f8f3f01e59951a49948961f",
+    "source": "Elvia",
+    "kommune": "Fredrikstad",
+    "kommunenr": "3107",
+    "area": "X2111 – Gressvik",
+    "customers": 50,
+    "planned": true,
+    "status": "deenergized",
+    "cause": "Planned",
+    "start_ms": 1792706460000,
+    "end_ms": 1792713600000,
+    "lat": 59.20061536705341,
+    "lon": 10.830337993480756,
+    "first_seen": "2026-10-22T22:43:35+00:00"
+  }
+}
