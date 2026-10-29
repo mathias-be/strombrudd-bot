@@ -1,18 +1,18 @@
 {
-  "norgesnett:V-2980-1": {
-    "id": "norgesnett:V-2980-1",
+  "norgesnett:V-71242-1": {
+    "id": "norgesnett:V-71242-1",
     "source": "Norgesnett",
-    "kommune": "Fredrikstad",
-    "kommunenr": "3107",
-    "area": "GLUPPE H1158",
-    "customers": 6,
-    "planned": true,
+    "kommune": "Hvaler",
+    "kommunenr": "3110",
+    "area": "RØD H3002",
+    "customers": 71,
+    "planned": false,
     "status": "Påbegynt",
-    "cause": null,
-    "start_ms": 1793257128000,
-    "end_ms": 1793268026000,
-    "lat": 59.25894046600001,
-    "lon": 10.918458110000017,
-    "first_seen": "2026-10-29T09:47:22+00:00"
+    "cause": "Dette er en test\n \nBerørte områder: \n\nHÅBU.",
+    "start_ms": 1793276361000,
+    "end_ms": null,
+    "lat": 59.049959403,
+    "lon": 10.957792476999998,
+    "first_seen": "2026-10-29T16:27:33+00:00"
   }
 }
