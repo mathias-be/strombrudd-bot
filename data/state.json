@@ -14,5 +14,21 @@
     "lat": 59.020101479999994,
     "lon": 11.028521876000013,
     "first_seen": "2026-10-30T14:21:51+00:00"
+  },
+  "norgesnett:V-71262-1": {
+    "id": "norgesnett:V-71262-1",
+    "source": "Norgesnett",
+    "kommune": "Fredrikstad",
+    "kommunenr": "3107",
+    "area": "TORVVEIEN H0449",
+    "customers": 25,
+    "planned": false,
+    "status": "Påbegynt",
+    "cause": null,
+    "start_ms": 1793399093000,
+    "end_ms": null,
+    "lat": 59.22503348599997,
+    "lon": 10.965686568000024,
+    "first_seen": "2026-10-30T23:14:47+00:00"
   }
 }
