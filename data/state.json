@@ -1,1 +1,18 @@
-{}
+{
+  "norgesnett:V-71256-1": {
+    "id": "norgesnett:V-71256-1",
+    "source": "Norgesnett",
+    "kommune": "Hvaler",
+    "kommunenr": "3110",
+    "area": "RØD H3001",
+    "customers": 1391,
+    "planned": false,
+    "status": "Påbegynt",
+    "cause": "Glitre Nett har for tiden feil i strømnettet. Feilsøking pågår. \n \nBerørte områder: \n\nLAMMENES ØST, HVALERTUNNELEN 1, HVALERTUNELLEN 4, HVALERTUNNELEN 2, HVALER TUNELLEN III, PRESTEGÅRDEN, VADHOLMEN, SANDBAKKEN, LAMMENES, KJØLHOLDT, TJERNET, STENLIA, KROKSAND, FLOREN SKOLE, KJØLHOLTFELTET, HOTELLET, TORGET, PRESTEGÅRDSHAVNA, PRESTEGÅRDSFELTET, PRESTEGÅRDSSKOGEN, PRESTEGÅRDSFELTET SYD, HOMLUNGEN, LAUER, NEDGÅRDEN, LØKKEBERG, SKJELLEREN, KASA, GJØLERTANGEN, PØLEN, SAUHOLMEN, HERFØL MARINA, HERFØL, ROGNHAVN, TØFTE, KJØLHOLTFELTET 14, STORVEIEN 32, VADBENKEN 2, PRESTEHAVNA 21.",
+    "start_ms": 1793343407000,
+    "end_ms": null,
+    "lat": 59.020101479999994,
+    "lon": 11.028521876000013,
+    "first_seen": "2026-10-30T07:15:00+00:00"
+  }
+}
