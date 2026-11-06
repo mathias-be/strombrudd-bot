@@ -14,5 +14,21 @@
     "lat": 59.241419991999976,
     "lon": 10.970021213999985,
     "first_seen": "2026-11-05T11:39:18+00:00"
+  },
+  "elvia:1445bdf17bf4d04ec69539eb7e1f12fd": {
+    "id": "elvia:1445bdf17bf4d04ec69539eb7e1f12fd",
+    "source": "Elvia",
+    "kommune": "Fredrikstad",
+    "kommunenr": "3107",
+    "area": "X2217 – Engelsviken",
+    "customers": 15,
+    "planned": false,
+    "status": "deenergized",
+    "cause": "Unplanned",
+    "start_ms": 1793966922000,
+    "end_ms": 1793979882000,
+    "lat": 59.25245112906538,
+    "lon": 10.745332945092994,
+    "first_seen": "2026-11-06T14:38:40+00:00"
   }
 }
