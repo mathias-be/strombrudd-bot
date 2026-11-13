@@ -1,1 +1,18 @@
-{}
+{
+  "norgesnett:V-71325-1": {
+    "id": "norgesnett:V-71325-1",
+    "source": "Norgesnett",
+    "kommune": "Fredrikstad",
+    "kommunenr": "3107",
+    "area": "KRÅKERØY H1725",
+    "customers": 3,
+    "planned": false,
+    "status": "Påbegynt",
+    "cause": "Glitre Nett har for tiden feil i strømnettet. Feilsøking pågår. \n \nBerørte områder: \n",
+    "start_ms": 1794542633000,
+    "end_ms": null,
+    "lat": 59.209901172,
+    "lon": 10.919323631999987,
+    "first_seen": "2026-11-13T10:07:13+00:00"
+  }
+}
